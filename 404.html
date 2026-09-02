@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Saptarshi Bhattacharjee</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .error-shell{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .error-shell .prompt{
+    font-family: var(--font-mono);
+    color: var(--accent-2);
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .error-shell h1{
+    font-size: 64px;
+    margin: 0 0 12px;
+    color: var(--accent);
+    font-family: var(--font-mono);
+  }
+  .error-shell p{
+    color: var(--text-muted);
+    font-size: 15px;
+    max-width: 46ch;
+    margin: 0 0 28px;
+  }
+  .error-shell a.home-link{
+    font-family: var(--font-mono);
+    font-size: 13px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 10px 18px;
+    border-radius: 3px;
+    transition: background .15s, color .15s;
+  }
+  .error-shell a.home-link:hover{
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<div class="scanlines" aria-hidden="true"></div>
+<div class="error-shell">
+  <p class="prompt">guest@saptarshi:~$ cat requested_page.html</p>
+  <h1>404</h1>
+  <p>cat: requested_page.html: No such file or directory. Whatever you were looking for isn't here — maybe it moved, maybe it never existed.</p>
+  <a class="home-link" href="/">cd ~ &nbsp;→&nbsp; back to home</a>
+</div>
+</body>
+</html>
